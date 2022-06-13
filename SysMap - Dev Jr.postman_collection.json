@@ -1,0 +1,153 @@
+{
+	"info": {
+		"_postman_id": "880a6ab3-af15-48ff-82b7-00f3b103f90c",
+		"name": "SysMap - Dev Jr",
+		"description": "SysMap",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Cadastrar Produto",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \r\n    \"Nome\": \"Prato\", \r\n    \"CriadoPorUsuId\": 2\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:20368/produto",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "20368",
+					"path": [
+						"produto"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Consultar Produto",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:20368/produto",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "20368",
+					"path": [
+						"produto"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Cadastrar Venda Produto",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"vendaId\": 3,\r\n    \"produtoId\": 25,\r\n    \"valor\": 500,\r\n    \"desconto\": 0,\r\n    \"valorFinal\": 500,\r\n    \"criadoPorUsuId\": 1,\r\n    \"indAtivo\": false\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:20368/vendaProduto",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "20368",
+					"path": [
+						"vendaProduto"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Consultar Venda Produto",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:20368/vendaProduto/10",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "20368",
+					"path": [
+						"vendaProduto",
+						"10"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Consultar Venda",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:20368/venda/5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "20368",
+					"path": [
+						"venda",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Cadastrar Venda",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"produtoId\": 20,\r\n    \"indAtivo\": false\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:20368/venda",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "20368",
+					"path": [
+						"venda"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
