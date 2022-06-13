@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "fKzDO8+vk0DCdIDzcg3NS9JsYgnbwbkvUoMZLSGiXbZ7P3us4Ykh5n3LwtsEA9kxj6OcLuWfNB0u8417HBPo7w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\vinicius\\Pictures\\DEV_jr\\WebApiSysmap\\WebApiSysmap\\WebApiSysmap.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vinicius\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\vinicius\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\vinicius\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\vinicius\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\vinicius\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\vinicius\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
+    "C:\\Users\\vinicius\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.13\\microsoft.netcore.app.host.win-x64.5.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}
